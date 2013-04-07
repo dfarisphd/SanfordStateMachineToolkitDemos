@@ -1,0 +1,196 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C886A854-9A31-41B1-A481-F9AAA76BD017}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Sanford.StateMachineToolkit</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Sanford.StateMachineToolkit</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Sanford.Collections, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Sanford.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="Sanford.Threading, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Sanford.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActionCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ActiveStateMachine.cs" />
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CodeGeneration\ActionInitializeBuilder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CodeGeneration\ConstructorBuilder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CodeGeneration\EventEnumeratorBuilder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CodeGeneration\FieldBuilder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CodeGeneration\GuardInitializeBuilder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CodeGeneration\HistoryInitializeBuilder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CodeGeneration\InitializeMethodBuilder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CodeGeneration\InitialStateInitializeBuilder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CodeGeneration\MethodBuilder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CodeGeneration\RelationshipInitializeBuilder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CodeGeneration\StateEnumeratorBuilder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CodeGeneration\StateInitializeBuilder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CodeGeneration\TransitionInitializeBuilder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PassiveStateMachine.cs" />
+    <Compile Include="State.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StateMachine.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StateMachineBuilder\ActionRow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StateMachineBuilder\ActionRowCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StateMachineBuilder\StateMachineBuilder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StateMachineBuilder\StateMachineBuilderException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StateMachineBuilder\StateRow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StateMachineBuilder\StateRowCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StateMachineBuilder\TransitionRow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StateMachineBuilder\TransitionRowCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SubstateCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Transition.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TransitionCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TransitionCompletedEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TransitionResult.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

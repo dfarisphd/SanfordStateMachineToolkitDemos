@@ -8,4 +8,5 @@ Please see the following documents for more details and restrictions
 governing this work:
 
 CPOL.htm
+
 CPOL-CodeProjectOpenLicense.pdf

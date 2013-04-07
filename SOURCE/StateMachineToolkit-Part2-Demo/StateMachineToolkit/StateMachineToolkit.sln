@@ -1,0 +1,69 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateMachineToolkit", "StateMachineToolkit\StateMachineToolkit.csproj", "{C886A854-9A31-41B1-A481-F9AAA76BD017}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateMachineBuilderDemo", "StateMachineBuilderDemo\StateMachineBuilderDemo.csproj", "{8D29E94E-D0C1-456C-98BB-3EE1D7D59FF8}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateMachineMaker", "StateMachineMaker\StateMachineMaker.csproj", "{62930563-1B29-4F7C-ACBA-1A8B9E70D76E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestExample", "TestExample\TestExample.csproj", "{FA8FEB88-78A8-4109-B2F3-FB78BF5F1E88}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightSwitchDemo", "LightSwitchDemo\LightSwitchDemo.csproj", "{3EDD52B7-DFCE-469A-80D1-971C4CD99487}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrafficLightDemo", "TrafficLightDemo\TrafficLightDemo.csproj", "{6D9B1E76-25A6-4040-BE8E-A326220EFE87}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateSchedulerTester", "DelegateSchedulerTester\DelegateSchedulerTester.csproj", "{8DC0C5C5-207D-496E-ACB8-83BDB65FF0D5}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{C886A854-9A31-41B1-A481-F9AAA76BD017}.Debug.ActiveCfg = Debug|.NET
+		{C886A854-9A31-41B1-A481-F9AAA76BD017}.Debug.Build.0 = Debug|.NET
+		{C886A854-9A31-41B1-A481-F9AAA76BD017}.Release.ActiveCfg = Release|.NET
+		{C886A854-9A31-41B1-A481-F9AAA76BD017}.Release.Build.0 = Release|.NET
+		{8D29E94E-D0C1-456C-98BB-3EE1D7D59FF8}.Debug.ActiveCfg = Debug|.NET
+		{8D29E94E-D0C1-456C-98BB-3EE1D7D59FF8}.Debug.Build.0 = Debug|.NET
+		{8D29E94E-D0C1-456C-98BB-3EE1D7D59FF8}.Release.ActiveCfg = Release|.NET
+		{8D29E94E-D0C1-456C-98BB-3EE1D7D59FF8}.Release.Build.0 = Release|.NET
+		{62930563-1B29-4F7C-ACBA-1A8B9E70D76E}.Debug.ActiveCfg = Debug|.NET
+		{62930563-1B29-4F7C-ACBA-1A8B9E70D76E}.Debug.Build.0 = Debug|.NET
+		{62930563-1B29-4F7C-ACBA-1A8B9E70D76E}.Release.ActiveCfg = Release|.NET
+		{62930563-1B29-4F7C-ACBA-1A8B9E70D76E}.Release.Build.0 = Release|.NET
+		{FA8FEB88-78A8-4109-B2F3-FB78BF5F1E88}.Debug.ActiveCfg = Debug|.NET
+		{FA8FEB88-78A8-4109-B2F3-FB78BF5F1E88}.Debug.Build.0 = Debug|.NET
+		{FA8FEB88-78A8-4109-B2F3-FB78BF5F1E88}.Release.ActiveCfg = Release|.NET
+		{FA8FEB88-78A8-4109-B2F3-FB78BF5F1E88}.Release.Build.0 = Release|.NET
+		{3EDD52B7-DFCE-469A-80D1-971C4CD99487}.Debug.ActiveCfg = Debug|.NET
+		{3EDD52B7-DFCE-469A-80D1-971C4CD99487}.Debug.Build.0 = Debug|.NET
+		{3EDD52B7-DFCE-469A-80D1-971C4CD99487}.Release.ActiveCfg = Release|.NET
+		{3EDD52B7-DFCE-469A-80D1-971C4CD99487}.Release.Build.0 = Release|.NET
+		{6D9B1E76-25A6-4040-BE8E-A326220EFE87}.Debug.ActiveCfg = Debug|.NET
+		{6D9B1E76-25A6-4040-BE8E-A326220EFE87}.Debug.Build.0 = Debug|.NET
+		{6D9B1E76-25A6-4040-BE8E-A326220EFE87}.Release.ActiveCfg = Release|.NET
+		{6D9B1E76-25A6-4040-BE8E-A326220EFE87}.Release.Build.0 = Release|.NET
+		{8DC0C5C5-207D-496E-ACB8-83BDB65FF0D5}.Debug.ActiveCfg = Debug|.NET
+		{8DC0C5C5-207D-496E-ACB8-83BDB65FF0D5}.Debug.Build.0 = Debug|.NET
+		{8DC0C5C5-207D-496E-ACB8-83BDB65FF0D5}.Release.ActiveCfg = Release|.NET
+		{8DC0C5C5-207D-496E-ACB8-83BDB65FF0D5}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
